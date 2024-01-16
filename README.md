@@ -1,26 +1,20 @@
 # Bike Store's Sales Report
 
 ## Table of Content 
-[Project Overview](#project-overview)
-[Data Sources](#data-sources)
-[Result](#result)
-[Recomendation](#recomendation)
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Result](#result)
+- [Recomendation](#recomendation)
 
 
 ## Project Overview
-This project aims to provide insight into revenue at Bike Stores
-in 2016 to 2018 in several states such as California, New York, and Texas. 
-By analyzing sales data per country, product, and brand, 
-we will get information that can be used to make data-based recommendations 
-so that we can get more income in the following year.
+This project aims to provide insight into revenue at Bike Stores in 2016 to 2018 in several states such as California, New York, and Texas. 
+By analyzing sales data per country, product, and brand, we will get information that can be used to make data-based recommendations so that we can get more income in the following year.
 
 ![alt text](image.JPG)
 
 ## Data Sources
-The data sources used in this project are "BikeStores.xlsx" 
-which contains detailed information regarding order data 
-and SQL files that can be executed on SQL Server to create a product table 
-that will be added to the Bike Store revenue database.
+The data sources used in this project are "BikeStores.xlsx" which contains detailed information regarding order data and SQL files that can be executed on SQL Server to create a product table that will be added to the Bike Store revenue database.
 
 ## Tool
 SQL 
@@ -31,13 +25,13 @@ Tableau -
 - Visualizing Data 
 
 ### The steps of analyzing data
-In this phase, after storing the data in SQL Server database, 
-I perform the following tasks:
+In this phase, after storing the data in SQL Server database, I perform the following tasks:
 - ETL (Extract, Transform, Load)
-combine the required data from several tables then save the results in Excel
+Combine the required data from several tables then save the results in Excel
 
 Include some interesting code/features worked with
-'SELECT 
+``` sql
+SELECT 
 	ord.order_id, 
 	CONCAT(cus.first_name, ' ' , cus.last_name) AS 'customer_name', 
 	cus.city, 
@@ -75,11 +69,11 @@ GROUP BY
 	bran.brand_name,
 	cat.category_name,
 	sto.store_name,
-	CONCAT(sta.first_name, ' ' , sta.last_name)'
+	CONCAT(sta.first_name, ' ' , sta.last_name)
+```
 
 - EDA (Exploratory Data Analysis)
-Using pivot table to analyze and summarize the cleaned data, 
-then using pivot chart to analyze data using various types of graphs to answer key questions:
+Using a pivot table to analyze and summarize the cleaned data, then using a pivot chart to analyze data using various types of graphs to answer key questions:
 
 1. When was the highest income from 2016-2018?
 2. Which countries and stores had the highest revenue during 2016-2018?
@@ -91,8 +85,6 @@ Summary of the results of data analysis as follows:
 2. The shop with the highest revenue is Santa Cruz Bikes in California
 3. The highest revenue from shops during 2016-2018 was Mountain Bikes under the Trek brand.
 
-### Recomendation
-What I might recommend, especially for the Rowlett Bikes store in Texas that generated the lowest sales of the three stores, is to increase efforts to attract customers with attractive advertisements 
-and promos on products that customers are interested in each season. 
-Providing discounts on best-selling products is also highly recommended to increase sales and attract customers.
+### Recommendation
+What I might recommend, especially for the Rowlett Bikes store in Texas that generated the lowest sales of the three stores, is to increase efforts to attract customers with attractive advertisements and promos on products that customers are interested in each season. Providing discounts on best-selling products is also highly recommended to increase sales and attract customers.
 
