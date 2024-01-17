@@ -27,8 +27,8 @@ Tableau -
 
 ### The steps of analyzing data
 In this phase, after storing the data in the SQL Server database, I perform the following tasks:
-- ETL (Extract, Transform, Load)
- - Combine the required data from several tables then save the results in Excel
+1. ETL (Extract, Transform, Load)
+- Combine the required data from several tables then save the results in Excel
 
 Include some interesting code/features worked with
 ``` sql
@@ -73,8 +73,8 @@ GROUP BY
 	CONCAT(sta.first_name, ' ' , sta.last_name)
 ```
 
-- EDA (Exploratory Data Analysis)
-Using a pivot table to analyze and summarize the cleaned data, then using a pivot chart to analyze data using various types of graphs to answer key questions:
+2. Analyzing Data
+- Using a pivot table to analyze and summarize the cleaned data, then using a pivot chart to analyze data using various types of graphs to answer key questions:
 
 1. When was the highest income from 2016-2018?
 2. Which countries and stores had the highest revenue during 2016-2018?
