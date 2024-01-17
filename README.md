@@ -14,7 +14,7 @@ By analyzing sales data per country, product, and brand, we will get information
 ![alt text](image.JPG)
 
 ## Data Sources
-The data sources used in this project are "BikeStores.xlsx" which contains detailed information regarding order data and SQL files that can be executed on SQL Server to create a product table that will be added to the Bike Store revenue database.
+The data source used in this project is "BikeStores.xlsx" which contains detailed information regarding order data and SQL files that can be executed on SQL Server to create a product table that will be added to the Bike Store revenue database.
 - [Download File Source Here](https://github.com/HilmaSabela/Bike_Store_Analysis/blob/main/BikeStores.xlsx)
 
 ## Tool
