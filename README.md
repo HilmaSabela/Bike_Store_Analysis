@@ -23,10 +23,10 @@ SQL
 Excel 
 - Analyzing Data 
 Tableau - 
-- Visualizing Data 
+- Analyzing and Visualizing Data 
 
 ### The steps of analyzing data
-In this phase, after storing the data in SQL Server database, I perform the following tasks:
+In this phase, after storing the data in the SQL Server database, I perform the following tasks:
 - ETL (Extract, Transform, Load)
 Combine the required data from several tables then save the results in Excel
 
