@@ -28,7 +28,7 @@ Tableau -
 ### The steps of analyzing data
 In this phase, after storing the data in the SQL Server database, I perform the following tasks:
 - ETL (Extract, Transform, Load)
-Combine the required data from several tables then save the results in Excel
+--Combine the required data from several tables then save the results in Excel
 
 Include some interesting code/features worked with
 ``` sql
