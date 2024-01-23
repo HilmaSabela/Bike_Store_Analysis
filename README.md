@@ -18,11 +18,11 @@ The data source used in this project is "BikeStores.xlsx" which contains detaile
 - [Download File Source Here](https://github.com/HilmaSabela/Bike_Store_Analysis/blob/main/BikeStores.xlsx)
 
 ## Tool
-SQL 
+1. SQL 
 - Cleaning and Transforming Data 
-Excel 
+2. Excel 
 - Analyzing Data 
-Tableau - 
+3. Tableau
 - Analyzing and Visualizing Data 
 
 ### The steps of analyzing data
