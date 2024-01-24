@@ -8,7 +8,7 @@
 
 
 ## Project Overview
-This project aims to provide information into revenue at Bike Stores in 2016 to 2018 in several states such as California, New York, and Texas. 
+This project aims to provide informations into revenue at Bike Stores in 2016 to 2018 in several states such as California, New York, and Texas. 
 By analyzing sales data per country, product, and brand, we will get information that can be used to make data-based recommendations so that we can get more income in the following year.
 
 ![alt text](image.JPG)
