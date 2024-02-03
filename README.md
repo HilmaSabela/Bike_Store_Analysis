@@ -76,15 +76,16 @@ GROUP BY
 2. Analyzing Data
 - Using a pivot table to analyze and summarize the cleaned data, then using a pivot chart to analyze data using various types of graphs to answer key questions:
 
-1. When was the highest income from 2016-2018?
+1. When was the highest revenue from 2016-2018?
 2. Which countries and stores had the highest revenue during 2016-2018?
 3. Which brands and products have the highest revenue?
 
 ### Result
 Summary of the results of data analysis as follows:
 1. The highest revenue of the 3 stores was in 2017 with total revenue of 3.5 million dollars
-2. The shop with the highest revenue is Santa Cruz Bikes in California
-3. The highest revenue from shops during 2016-2018 was Mountain Bikes under the Trek brand.
+2. The shop with the highest revenue is Baldwin Bikes in New York
+3. The highest revenue of product brands during 2016-2018 was Mountain Bikes under the Trek brand.
+ - [Tableau Dashboard](https://public.tableau.com/app/profile/hilma.sabela/viz/BikeStoreRevenueDashboard_17010894627430/Dashboard1) 
 
 ### Recommendation
 What I might recommend, especially for the Rowlett Bikes store in Texas that generated the lowest sales of the three stores, is to increase efforts to attract customers with attractive advertisements and promos on products that customers are interested in each season. Providing discounts on best-selling products is also highly recommended to increase sales and attract customers.
